@@ -34,6 +34,18 @@
         <Preference android:key="sim_sms"
             android:title="@string/sms_messages_title" />
 
+        <com.xtended.xtensions.preferences.SystemSettingSwitchPreference
+            android:key="no_sim_cluster_switch"
+            android:title="@string/no_sim_cluster_switch_title"
+            android:summary="@string/no_sim_cluster_switch_summary"
+            android:defaultValue="false"/>
+
+        <com.xtended.xtensions.preferences.SystemSettingSwitchPreference
+            android:key="disable_no_sim"
+            android:title="@string/disable_no_sim_title"
+            android:summary="@string/disable_no_sim_summary"
+            android:defaultValue="false"/>
+
     </PreferenceCategory>
 
 
